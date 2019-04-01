@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "codeflask": "^1.4.0",
+    "lodash": "^4.17.11",
+    "prismjs": "^1.16.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts-ts": "3.1.0"
+    "react-redux": "^6.0.1",
+    "react-scripts-ts": "3.1.0",
+    "react-simple-code-editor": "^0.9.7",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "reduxsauce": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -15,9 +23,12 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
+    "@types/lodash": "^4.14.123",
     "@types/node": "^11.11.3",
+    "@types/prismjs": "^1.16.0",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.6",
     "typescript": "^3.3.3333"
   }
 }
